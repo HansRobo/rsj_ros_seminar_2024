@@ -30,7 +30,7 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 2. USBメモリへディスクイメージへの書き込んでインストールメディアを作成する
 3. インストールメディアからUbuntu 22.04 Desktopをインストールする
 
-!!! info
+!!! note
     e-manualや公式チュートリアルでは英語版のUbuntu22.04のインストール手順が記載されていますが、以下のサイトから日本語版のダウンロードも可能です。  
     [Ubuntu Desktop 日本語 Remixのダウンロード](https://www.ubuntulinux.jp/download/ja-remix)
 
@@ -42,8 +42,18 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 
 ### ROS 2 Humble
 
-[公式ガイド](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)
+[公式ガイド](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)にしたがってROS 2 Humbleをインストールしてください。  
+
+!!! note
+    インストール作業だけでなく、同ページの[「Try some examples」](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html#try-some-examples)に書かれている簡単な動作確認も併せて行っていただくと、当日のトラブルのない進行につながります。
 
 ## TurtleBot3用ラズベリーパイの環境構築
 
+**基本はROBOTIS社TurtleBot3のe-manualの「3.2 SBC Setup」にしたがってください。**  
+
 [ROBOTIS公式 e-manual](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
+
+!!! note
+    Raspberry Pi Imagerを操作するときにデバイス名を選択できますが、「Rasberry Pi 4」を選択してください。  
+    すべての選択が終わったあと以下のような画面になっていれば正しく選択ができています。  
+    ![alt text](images/raspi_imager.png)
