@@ -30,6 +30,9 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 2. USBメモリへディスクイメージへの書き込んでインストールメディアを作成する
 3. インストールメディアからUbuntu 22.04 Desktopをインストールする
 
+!!! info
+    インストール用メディアを作るためのUSBメモリなどが必要になります
+
 !!! note
     e-manualや公式チュートリアルでは英語版のUbuntu22.04のインストール手順が記載されていますが、以下のサイトから日本語版のダウンロードも可能です。  
     [Ubuntu Desktop 日本語 Remixのダウンロード](https://www.ubuntulinux.jp/download/ja-remix)
@@ -53,7 +56,17 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 
 [ROBOTIS公式 e-manual](https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/)
 
+!!! info
+    ラズベリーパイの環境構築には以下のものが必要です。
+
+    - microSD/SDカードに書き込み可能なPC（直接microSC/SDを扱えない場合はカードリーダーを使用する）
+    - HDMIケーブル（ラズベリーパイの画面出力用）
+    - ディスプレイ（ラズベリーパイの画面出力用）
+    - USBキーボード（ラズベリーパイの操作用）
+    - USBマウス（ラズベリーパイの操作用）
+
 !!! note
     Raspberry Pi Imagerを操作するときにデバイス名を選択できますが、「Rasberry Pi 4」を選択してください。  
     すべての選択が終わったあと以下のような画面になっていれば正しく選択ができています。  
     ![alt text](images/raspi_imager.png)
+
