@@ -65,8 +65,24 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
     - USBキーボード（ラズベリーパイの操作用）
     - USBマウス（ラズベリーパイの操作用）
 
-!!! note
-    Raspberry Pi Imagerを操作するときにデバイス名を選択できますが、「Rasberry Pi 4」を選択してください。  
-    すべての選択が終わったあと以下のような画面になっていれば正しく選択ができています。  
-    ![alt text](images/raspi_imager.png)
+!!! tips
+    Ubuntu 22.04 **Desktop** ではなく Ubuntu 22.04 **Server** をインストールすることに注意してください。
+
+<!-- ### 当日用PCとの直接接続
+
+ラズベリーパイのセットアップに使用したWiFi環境は当日のセミナー会場で使用できない可能性が高いため、当日用PCと直接接続する方法を以下に示します。
+
+**当日用PCでWiFiアクセスポイントを作成する**
+
+1. WiFiの設定を開く（Windowsキーを押して出てくる検索画面で「wifi」と調べると出てくる）
+2. WiFi設定画面の上にあるメニューを開き、「Turn On WiFi Spot...」をクリックする
+3. WiFiアクセスポイントの名前とパスワードを設定し、アクセスポイントを有効化する
+
+**ラズベリーパイを当日用PCと直接接続する**
+
+1. WiFi設定用コマンドをインストールする `sudo apt install network-manager`
+1. `sudo nano /etc/netplan/50-cloud-init.yaml`で設定を編集する
+2. アクセスポイント欄に上で設定したアクセスポイントの名前とパスワードを設定する
+ -->
+
 
