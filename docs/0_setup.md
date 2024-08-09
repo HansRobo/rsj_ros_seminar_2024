@@ -60,7 +60,7 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
     ラズベリーパイの環境構築には以下のものが必要です。
 
     - microSD/SDカードに書き込み可能なPC（直接microSC/SDを扱えない場合はカードリーダーを使用する）
-    - HDMIケーブル（ラズベリーパイの画面出力用）
+    - mini-HDMIケーブル（ラズベリーパイの画面出力用）
     - ディスプレイ（ラズベリーパイの画面出力用）
     - USBキーボード（ラズベリーパイの操作用）
     - USBマウス（ラズベリーパイの操作用）
