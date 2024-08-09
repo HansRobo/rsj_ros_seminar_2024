@@ -1,6 +1,6 @@
 # 環境構築
 
-環境構築が必要な物品は「TurtleBot3用ラズベリーパイ」「参加者用PC」の2点です。
+環境構築が必要な物品は「TurtleBot3」「参加者用PC」の2点です。
 基本的には、ROBOTIS社公式のe-manualに則ってセットアップを行いますが、
 本ページでは参加者の皆様がスムーズにセミナーに参加できるように、セットアップ手順を補足します。
 
@@ -8,6 +8,10 @@
 
 実習キットのTurtleBot3の上の段に格納されているラズベリーパイを使用します。
 同包されているmicroSDカードを使用してセットアップを行います。
+
+**TurtleBot3用OpenCR**
+
+実習キットのTurtleBot3の下の段に格納されているOpenCR（青い基板）を使用します。
 
 **参加者用PC**
 
@@ -88,3 +92,9 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 
 !!! note
     e-manualでは、`ROS_DOMAIN_ID`を30に設定する記述がありますが、セミナー当日はグループ間での通信の混線を避けるため、オーガナイザーが指定する別々の`ROS_DOMAIN_ID`を設定してもらいます。
+
+## OpenCRのセットアップ
+
+
+**ROBOTIS社TurtleBot3のe-manualの[「3.3 OpenCR Setup」](https://emanual.robotis.com/docs/en/platform/turtlebot3/opencr_setup/#opencr-setup)にしたがってください。**  
+
