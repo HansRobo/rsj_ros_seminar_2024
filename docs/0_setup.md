@@ -73,6 +73,10 @@ https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/
 !!! tips
     Ubuntu 22.04 **Desktop** ではなく Ubuntu 22.04 **Server** をインストールすることに注意してください。
 
+!!! tips
+    公式e-manualに「/writable/etc...」などから始まるファイルパスが記載されていることがあります。
+    このファイルパスが存在しない場合は、`/etc/...`などに読み替えてください。
+
 <!-- ### 当日用PCとの直接接続
 
 ラズベリーパイのセットアップに使用したWiFi環境は当日のセミナー会場で使用できない可能性が高いため、当日用PCと直接接続する方法を以下に示します。
