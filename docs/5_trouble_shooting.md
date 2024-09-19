@@ -38,6 +38,28 @@ sudo nmap -sn 192.168.20.0/24 | grep <MACアドレス> -n2
 39-Host is up (0.026s latency).
 ```
 
+### ROS_DOMAIN_IDを変更したい
+
+.bashrcファイルに記述したROS_DOMAIN_ID設定を変更することが必要です。
+
+#### .bashrcファイルを編集
+
+```bash
+nano ~/.bashrc
+```
+
+#### ROS_DOMAIN_IDの書き換え
+
+export ROS_DOMAIN_ID=30の行を自分のIDに書き換え
+（↑の行はセットアップ時に追記済み）
+
+#### リロード
+
+```bash
+source ~/.bashrc
+```
+
+
 
 ## ロボットが動かない
 
